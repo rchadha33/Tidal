@@ -1,15 +1,14 @@
-
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica Light', sans-serif; /* Change font to Helvetica Light */
     margin: 0;
     padding: 0;
-    background-color: #e6f7ff; /* Light blue background, reminiscent of water */
+    background-color: #0077be; /* Light blue background, reminiscent of water */
     color: #333333; /* Dark text for contrast */
 }
 
 header {
-    background-color: #005073; /* Dark blue, like deep ocean water */
-    color: white;
+    background-color: white; /* Dark blue, like deep ocean water */
+    color: #0077be;
     text-align: center;
     padding: 1em 0;
 }
@@ -19,7 +18,7 @@ header h1 {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -28,6 +27,8 @@ main {
 
 section {
     margin-bottom: 40px;
+    text-align: justify; /* Justify text within section */
+    padding-right: 1%;
 }
 
 section h2 {
@@ -36,7 +37,7 @@ section h2 {
 }
 
 footer {
-    background-color: #005073;
+    background-color: #0077be;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -46,4 +47,43 @@ footer {
     main {
         width: 95%;
     }
+}
+/* FILEPATH: /Users/rachit/Documents/GitHub/Tidal/styles.css */
+
+body {
+    font-family: 'Helvetica Light', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Light', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Helvetica Light', Arial, sans-serif;
+}
+
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0077be;
+    z-index: 9999;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-bar a:hover {
+    background-color: rgb(184, 114, 9);
 }
